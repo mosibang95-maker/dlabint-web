@@ -5,8 +5,14 @@
 <script>
   var hash = window.location.hash;
   var search = window.location.search;
-  if (hash || search) {
-    window.location.href = 'com.tapa.korean://reset-password' + search + hash;
+  var params = '';
+  if (hash && hash.length > 1) {
+    params = '?' + hash.substring(1);
+  } else if (search) {
+    params = search;
+  }
+  if (params) {
+    window.location.href = 'com.tapa.korean://reset-password' + params;
   }
 </script>
 <p>앱으로 이동 중...</p>
