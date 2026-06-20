@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.tapa.korean",
+    "sha256_cert_fingerprints": [
+      "09:F2:67:C6:EE:95:6E:44:99:C7:09:52:8A:CA:84:03:CA:05:19:AF:BF:FB:70:C3:F2:A4:BF:4A:35:AD:60:0C"
+    ]
+  }
+}]
